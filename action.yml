@@ -1,0 +1,21 @@
+name: 'Google Cloud Function Access'
+description: 'Access a protected Google Cloud Function'
+inputs:
+  service-json-path:
+    description: 'The path to the service account JSON'
+    required: true
+    default: "gcloud.json"
+  url:
+    description: 'The URL of the cloud function'
+    required: true
+  method:
+    description: 'The HTTP method to use'
+    required: false
+    default: "GET"
+  body:
+    description: 'The body to send'
+    required: false
+    default: ""
+runs:
+  using: 'node16'
+  main: 'index.js'
