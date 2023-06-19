@@ -1,5 +1,8 @@
 name: 'Google Cloud Function Access'
 description: 'Access a protected Google Cloud Function'
+branding:
+  color: white
+  icon: 'cloud'
 inputs:
   service-json-path:
     description: 'The path to the service account JSON'
