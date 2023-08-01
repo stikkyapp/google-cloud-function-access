@@ -10,6 +10,10 @@
     {
       "matchDepNames": ["node-fetch"],
       "allowedVersions": "<3"
+    },
+    {
+      "matchPackageNames": ["node"],
+      "allowedVersions": "<17"
     }
   ]
 }
