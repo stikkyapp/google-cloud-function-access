@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "ncc build index.js -o dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/stikkyapp/google-cloud-function-access.git"
+  },
+  "engines": {
+    "node": "16"
   },
   "keywords": [],
   "author": "",
