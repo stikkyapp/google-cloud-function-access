@@ -1,11 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ],
+  "extends": ["config:base"],
+  "minimumReleaseAge": "7 days",
+  "internalChecksFilter": "strict",
   "labels": [
-    "dependencies"
+    "⚙️ Dependencies ⚙️"
   ],
+  "schedule": [
+    "after 10pm every weekday",
+    "before 5am every weekday",
+    "every weekend"
+  ],
+  "timezone": "Europe/Berlin",
   "packageRules": [
     {
       "matchDepNames": ["node-fetch"],
