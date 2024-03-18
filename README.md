@@ -23,7 +23,7 @@ The body of the request. Default `""`.
 ## Example usage
 
 ```yaml
-uses: stikkyapp/google-cloud-function-access@v1
+uses: stikkyapp/google-cloud-function-access@v2
 with:
   service-json-path: 'gcloud.json'
   url: 'https://test.example.org/get'
