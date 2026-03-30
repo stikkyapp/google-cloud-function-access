@@ -1,7 +1,7 @@
-const core = require('@actions/core');
-const fetch = require("node-fetch");
-const fs = require("fs");
-const jwt = require("jsonwebtoken");
+import * as core from "@actions/core";
+import fetch from "node-fetch";
+import fs from "fs";
+import jwt from "jsonwebtoken";
 
 async function generateJwtToken(account, audience) {
     core.info("⚙️ Generating JWT token...");

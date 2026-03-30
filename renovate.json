@@ -11,15 +11,5 @@
     "before 5am every weekday",
     "every weekend"
   ],
-  "timezone": "Europe/Berlin",
-  "packageRules": [
-    {
-      "matchDepNames": ["node-fetch"],
-      "allowedVersions": "<3"
-    },
-    {
-      "matchPackageNames": ["node"],
-      "allowedVersions": "<21"
-    }
-  ]
+  "timezone": "Europe/Berlin"
 }

@@ -19,8 +19,6 @@ jobs:
 
       - run: npm install
 
-      - run: npm i -g @vercel/ncc
-
       - run: npm run build
 
 
